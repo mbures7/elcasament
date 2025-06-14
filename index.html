@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casament de Marc & Gemma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="audio" loop>
+    <source src="compta_amb_mi.mp3" type="audio/mp3">
+  </audio>
+  <div class="music-btn">
+    <button onclick="toggleMusic()">🎶 Posa música</button>
+  </div>
+
+  <header>
+    <h1>Marc & Gemma</h1>
+    <p>20 de setembre de 2025 · Celler Fargas-Fargas</p>
+    <div id="countdown">
+      <div><span id="days">0</span><small>dies</small></div>
+      <div><span id="hours">0</span><small>hores</small></div>
+      <div><span id="minutes">0</span><small>minuts</small></div>
+      <div><span id="seconds">0</span><small>segons</small></div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ubicació</h2>
+      <iframe src="https://maps.google.com/maps?q=Celler%20Fargas-Fargas&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    </section>
+
+    <section>
+      <h2>Dress code</h2>
+      <p>Elegant i rústic: flors, colors suaus i comoditat per celebrar sota les estrelles ✨</p>
+    </section>
+
+    <section>
+      <h2>Preguntes Freqüents</h2>
+      <details><summary>🎁 Què podem regalar?</summary><p>Amb la vostra presència ja en tenim prou, però si voleu fer un detall, ja us donarem info el dia de la boda.</p></details>
+      <details><summary>👶 Podem portar nens?</summary><p>I tant! Els més petits també són benvinguts.</p></details>
+      <details><summary>🚗 Com arribem?</summary><p>Hi ha aparcament al celler i també opcions de taxi o compartir cotxe.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Amb tot el nostre amor, Marc & Gemma 💕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
